@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet">
+    <script src="main.js"></script>
     <title>Weight Converter</title>
 </head>
 
@@ -13,18 +14,18 @@
 <div class="Parent">
     <div class="Box"><br><br>
         <h1>Weight Converter</h1> <br><br>
-        <input type="text">
+        <input type="text" id="weightvalue" onkeyup=selectweight()>
         <div class="Buttons">
-            <select id="select">
-                <option value="Option 1">Kilograms(kg)</option>
-                <option value="Option 2">Ounces(oz)</option>
-                <option value="Option 3">Pounds(lbs)</option>
+            <select id="sel1" onclick=selectmeasure1()>
+                <option value="Option 1" id="op11">Kilograms(kg)</option>
+                <option value="Option 2" id="op12">Ounces(oz)</option>
+                <option value="Option 3" id="op13">Pounds(lbs)</option>
             </select>
             <h2><b>to</b></h2> 
-            <select id="select2">
-                <option value="Option 1">Kilograms(kg)</option>
-                <option value="Option 2">Ounces(oz)</option>
-                <option value="Option 3">Pounds(lbs)</option>
+            <select id="sel2" onclick=selectmeasure2()>
+                <option value="Option 1" id="op21">Kilograms(kg)</option>
+                <option value="Option 2" id="op22">Ounces(oz)</option>
+                <option value="Option 3" id="op23">Pounds(lbs)</option>
             </select>
             <input class="submit" type="submit" value="Submit">      
         </div>
