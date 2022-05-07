@@ -1,14 +1,14 @@
-function selectweight() {
-    var value = document.getElementById("weightvalue").value;
-    console.log(value);
+function selectweight() { //Prints the number written for organizingation purposes (this function should be deleted soon)//         
+    var valor = document.getElementById("weightvalue").value;
+    console.log(valor);
 }
 
-function selectmeasure1() {
-    var meas1 = document.getElementById("sel1").textContent;
-    console.log(meas1);
+function submitfunction () {    //gets the text written and transforms it to Int//
+    var valor = document.getElementById("weightvalue").value;
+    var number = parseInt(valor);
+    console.log(number * 1000);
 }
 
-function selectmeasure2() {
-    var meas2 = document.getElementById("sel2").textContent;
-    console.log(meas2);
-}
+let x = document.forms["Option2"];
+if (x = true)
+    console.log("o");
