@@ -16,19 +16,22 @@
         <h1>Weight Converter</h1> <br><br>
         <input type="text" id="weightvalue" onkeyup=selectweight()>
         <div class="Buttons">
-            <select id="unitFrom">
-                <option value="Option 1" id="op11">Kilograms(kg)</option>
-                <option value="Option 2" id="op12">Ounces(oz)</option>
-                <option value="Option 3" id="op13">Pounds(lbs)</option>
+            <select id="unitFrom" onchange="unitselected()">
+                <option id="optselect"> --- Select --- </option>
+                <option value="Option 1">Kilograms(kg)</option>
+                <option value="Option 2">Ounces(oz)</option>
+                <option value="Option 3">Pounds(lbs)</option>
             </select>
             <h2><b>to</b></h2> 
-            <select id="unitTo">
-                <option value="Option 1a" id="op21">Kilograms(kg)</option>
-                <option value="Option 2b" id="op22">Ounces(oz)</option>
-                <option value="Option 3c" id="op23">Pounds(lbs)</option>
+            <select id="unitTo" onchange="unitselected2()">
+                <option id="optselect"> --- Select --- </option>
+                <option value="Option 1a">Kilograms(kg)</option>
+                <option value="Option 2b">Ounces(oz)</option>
+                <option value="Option 3c">Pounds(lbs)</option>
             </select>
-            <input class="submit" type="button" onclick=submitfunction() value="Submit">      
+            <input class="submit" type="button" value="Submit" onclick="submitfunction()">      
         </div>
+        <h3 id="txtvalue">##RESULT</h3>
     </div>
 </div>
 </body>

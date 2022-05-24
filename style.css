@@ -53,6 +53,10 @@ body {
     box-shadow: 2px 2px 2px rgb(69, 67, 67);
 }
 
+#optselect {
+    text-align: center;
+}
+
 .Buttons h2 { /*to*/
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
@@ -90,3 +94,10 @@ body {
     border-radius: 5px;
     box-shadow: 2px 2px 2px rgb(69, 67, 67);
 } 
+
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: rgb(70, 70, 121);
+    font-size: 20px;
+}
