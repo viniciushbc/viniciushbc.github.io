@@ -6,35 +6,36 @@ function submitfunction () {
     
     if (u == r) {
         console.log ("Same measure!!");
+        document.getElementById("txtvalue").innerHTML = 'Please, insert different measures!';
     }
     if (u == "Option 1") {
         if (r == "Option 2") {
             const kgtooz = (number * 35.27396195);
-            console.log(kgtooz);
+            document.getElementById("txtvalue").innerHTML = number + ' kilograms are ' + kgtooz.toFixed(2) + ' ounces! ';
         }
         if (r == "Option 3") {
             const kgtolb = (number * 2.20462262185);
-            console.log(kgtolb);
+            document.getElementById("txtvalue").innerHTML = number + ' kilograms are ' + kgtolb.toFixed(2) + ' pounds! ';
         }
     }
     if (u == "Option 2") {
         if (r == "Option 1") {
             const oztokg = (number * 0.02834952);
-            console.log(oztokg);
+            document.getElementById("txtvalue").innerHTML = number + ' ounces are ' + oztokg.toFixed(2) + ' kilograms! ';
         }
         if (r == "Option 3") {
             const oztolb = (number * 0.0625);
-            console.log(oztolb);
+            document.getElementById("txtvalue").innerHTML = number + ' ounces are ' + oztolb.toFixed(2) + ' pounds! ';
         }
     }
     if (u == "Option 3") {
         if (r == "Option 1") {
             const lbtokg = (number * 0.453592);
-            console.log(lbtokg);
+            document.getElementById("txtvalue").innerHTML = number + ' pounds are ' + lbtokg.toFixed(2) + ' kilograms! ';
          }
         if (r == "Option 2") {
             const lbtooz = (number * 16);
-            console.log(lbtooz);
+            document.getElementById("txtvalue").innerHTML = number + ' pounds are ' + lbtooz.toFixed(2) + ' ounces! ';
         }
     }
 }

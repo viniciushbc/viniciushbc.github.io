@@ -14,7 +14,9 @@
 <div class="Parent">
     <div class="Box"><br><br>
         <h1>Weight Converter</h1> <br><br>
-        <input type="text" id="weightvalue">
+        <form method="post" action="/post/" autocomplete="off">
+        <input  type="text" id="weightvalue">
+        </form>
         <div class="Buttons">
             <select id="unitFrom">
                 <option id="optselect"> --- Select --- </option>
@@ -31,7 +33,7 @@
             </select>
             <input class="submit" type="button" value="Submit" onclick="submitfunction()">      
         </div>
-        <h3 id="txtvalue">##RESULT</h3>
+        <h3 id="txtvalue">Resultado</h3>
     </div>
 </div>
 </body>

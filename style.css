@@ -88,6 +88,7 @@ body {
 
 .Buttons input:hover {
     display: block;
+    background: #0f0f0f;
     margin: 22px auto;
     font-size: 32px;
     padding: 10px;  
@@ -97,7 +98,8 @@ body {
 
 h3 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 30px;
     text-align: center;
-    color: rgb(70, 70, 121);
-    font-size: 20px;
+    color: rgb(47, 129, 76);
+    font-size: 25px;
 }
