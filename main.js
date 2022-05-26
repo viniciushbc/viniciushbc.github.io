@@ -6,7 +6,7 @@ function submitfunction () {
     
     if (u == r) {
         console.log ("Same measure!!");
-        document.getElementById("txtvalue").innerHTML = 'Please, insert different measures!';
+        document.getElementById("txtvalue").innerHTML = 'Please, insert different measurements!';
     }
     if (u == "Option 1") {
         if (r == "Option 2") {
@@ -37,5 +37,11 @@ function submitfunction () {
             const lbtooz = (number * 16);
             document.getElementById("txtvalue").innerHTML = number + ' pounds are ' + lbtooz.toFixed(2) + ' ounces! ';
         }
+    }
+    if (document.getElementById("weightvalue").value.length == 0) {
+        document.getElementById("txtvalue").innerHTML = 'Please, insert a valid measure!';
+    }
+    if (document.getElementById("weightvalue").value < 0) {
+        document.getElementById("txtvalue").innerHTML = 'Negatives measures are not valid!';
     }
 }
