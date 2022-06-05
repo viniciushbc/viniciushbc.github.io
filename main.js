@@ -42,6 +42,9 @@ function submitfunction () {
         document.getElementById("txtvalue").innerHTML = 'Please, insert a valid measure!';
     }
     if (document.getElementById("weightvalue").value < 0) {
-        document.getElementById("txtvalue").innerHTML = 'Negatives measures are not valid!';
+        document.getElementById("txtvalue").innerHTML = 'Negatives measures ARE NOT valid!';
+    }
+    if (isNaN(document.getElementById("weightvalue").value )) {
+        document.getElementById("txtvalue").innerHTML = 'Please, insert ONLY numbers!';
     }
 }
