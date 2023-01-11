@@ -1,4 +1,4 @@
-# Weight Converter
+# Mass Converter
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/viniciushbc/viniciushbc.github.io/blob/main/LICENSE) 
 
 > Status: Concluded ✅
@@ -7,7 +7,7 @@
 
 https://viniciushbc.github.io
 
-It's a web application that converts weight unit measures, really simple to use and very intuitive! <br> <br>
+It's a web application that converts mass unit measures, really simple to use and very intuitive! <br> <br>
 > Measurements used:
 * Kg (Kilogram)
 * Lb (Pound)
