@@ -14,7 +14,7 @@ https://viniciushbc.github.io
 * Oz (Onça)
 
 ## Layout web
-![weight](https://user-images.githubusercontent.com/100978033/211914545-c55ca880-905b-4f72-aa22-7422541079fa.png)
+![image](https://user-images.githubusercontent.com/100978033/211918547-9ae68958-0e1d-461a-b6b9-b81e2a218d15.png)
 
 # Tecnologias utilizadas
 > Front end
