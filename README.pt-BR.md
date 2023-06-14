@@ -26,4 +26,4 @@ https://viniciushbc.github.io
 
 Vinícius Henrique Budag Coelho
 
-[LinkedIn](https://www.linkedin.com/in/vinícius-henrique-b24203234/)
+[LinkedIn](https://www.linkedin.com/in/viníciushbcoelho/)
