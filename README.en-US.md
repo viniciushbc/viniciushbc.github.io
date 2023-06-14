@@ -26,4 +26,4 @@ It's a web application that converts mass unit measures, really simple to use an
 
 Vinícius Henrique Budag Coelho
 
-[LinkedIn](https://www.linkedin.com/in/vinícius-henrique-b24203234/)
+[LinkedIn](https://www.linkedin.com/in/viníciushbcoelho/)
